@@ -1,6 +1,6 @@
 {
-  "description": "Adds user@host to the top panel, in the center to the right of the clock.\n\nNothing fancy & no support -- but it's very simple and you are encouraged to fork",
-  "name": "Add user@host to panel",
+  "description": "Adds user@host to the top panel, in the center to the right of the clock.\n\nNothing fancy, no support -- fork at will, the thing is very simple.",
+  "name": "Add user@host to top panel",
   "url": "https://github.com/cmm/gnome-user-at-host",
   "shell-version": [
     "3.36",
