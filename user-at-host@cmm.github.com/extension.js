@@ -9,8 +9,6 @@ function enable() {
     label = new St.Button({reactive: false,
                            can_focus: false,
                            track_hover: false,
-                           x_fill: true,
-                           y_fill: false,
                            label: GLib.get_user_name() + '@' + GLib.get_host_name()});
     let centerBoxChildren = Main.panel._centerBox.get_children();
     Main.panel._centerBox.insert_child_at_index(label, centerBoxChildren.length);
