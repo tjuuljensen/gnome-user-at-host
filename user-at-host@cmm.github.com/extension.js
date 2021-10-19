@@ -16,4 +16,5 @@ function enable() {
 function disable() {
     Main.panel._leftBox.remove_child(label);
     label.destroy();
+    label = null;
 }
