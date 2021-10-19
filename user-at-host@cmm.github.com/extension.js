@@ -10,11 +10,10 @@ function enable() {
                            can_focus: false,
                            track_hover: false,
                            label: GLib.get_user_name() + '@' + GLib.get_host_name()});
-    let centerBoxChildren = Main.panel._centerBox.get_children();
-    Main.panel._centerBox.insert_child_at_index(label, centerBoxChildren.length);
+    Main.panel._leftBox.insert_child_at_index(label, 0);
 }
 
 function disable() {
-    Main.panel._centerBox.remove_child(label);
+    Main.panel._leftBox.remove_child(label);
     label.destroy();
 }
