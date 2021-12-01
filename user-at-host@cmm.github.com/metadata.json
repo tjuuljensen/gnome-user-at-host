@@ -5,7 +5,8 @@
   "shell-version": [
     "3.36",
     "3.38",
-    "40"
+    "40",
+    "41"
   ],
   "uuid": "user-at-host@cmm.github.com",
   "version": "1",
