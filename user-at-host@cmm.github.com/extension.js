@@ -10,7 +10,7 @@ function enable() {
                            can_focus: false,
                            track_hover: false,
                            label: GLib.get_user_name() + '@' + GLib.get_host_name()});
-    Main.panel._leftBox.insert_child_at_index(label, 0);
+    Main.panel._centerBox.insert_child_at_index(label, 0);
 }
 
 function disable() {
