@@ -1,5 +1,5 @@
 {
-  "description": "Adds user@host to the top panel, on the left.\n\nNothing fancy, no support.",
+  "description": "Adds user@host to the center of top panel.\n\nNothing fancy, no support.",
   "name": "Add user@host to center of top panel",
   "url": "https://github.com/tjuuljensen/gnome-user-at-host",
   "shell-version": [
@@ -8,7 +8,8 @@
     "40",
     "41",
     "42",
-    "43"
+    "43",
+    "44"
   ],
   "uuid": "user-at-host@tjuuljensen.github.com",
   "version": "1",
